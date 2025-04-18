@@ -1,9 +1,10 @@
 using UnityEngine;
 
-enum TypeEnum
+public enum RobotEnums
 {
     Mining,
     Combat,
     Basic,
-    Main
+    Main,
+    None
 }

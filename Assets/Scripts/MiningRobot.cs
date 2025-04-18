@@ -6,24 +6,24 @@ public class MiningRobot : Robot
     {
         Name = "Mining";
         MaxHealth = 100;
-        ModelNumber = Robot:GetModelNumber(Name);
-        Type = RobotEnums.Mining.ToString();
+        ModelNumber = Robot.GetModelNumber(Name);
+        Type = RobotEnums.Mining;
         Armor = 20;
     }
 
 
-    public void Mine()
+    void Mine()
     {
-
+        // Mining behavior
     }
 
-    public void Store()
+    void Store()
     {
-
+        // Store behavior
     }
 
-    public void Overheat()
+    void Overheat()
     {
-
+        //Overheat behavior
     }
 }

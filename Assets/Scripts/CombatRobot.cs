@@ -6,24 +6,23 @@ public class CombatRobot : Robot
     {
         Name = "Combat";
         MaxHealth = 120;
-        ModelNumber = Robot:GetModelNumber(Name);
-        Type = RobotEnums.Combat.ToString();
+        ModelNumber = Robot.GetModelNumber(Name);
+        Type = RobotEnums.Combat;
         Armor = 50;
     }
 
-
-    public void Attack()
+    void Attack()
     {
-
+        // Attack behavior
     }
 
-    public void Reload()
+    void Reload()
     {
-
+        // Reload behavior
     }
 
-    public void Overheat()
+    void Overheat()
     {
-
+        // Overheat behavior
     }
 }

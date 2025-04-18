@@ -6,13 +6,13 @@ public class BasicRobot : Robot
     {
         Name = "Basic";
         MaxHealth = 70; 
-        ModelNumber = Robot:GetModelNumber(Name);
-        Type = RobotEnums.Basic.ToString();
+        ModelNumber = Robot.GetModelNumber(Name);
+        Type = RobotEnums.Basic;
         Armor = 50;
     }
 
 
-    public void Overheat()
+    void Overheat()
     {
 
     }
