@@ -8,7 +8,7 @@ public class CombatRobot : Robot
         MaxHealth = 120;
         ModelNumber = Robot.GetModelNumber(Name);
         Type = RobotEnums.Combat;
-        CompanyType = CompanyEnums.Monger;
+        CompanyName = CompanyEnums.Monger;
         Armor = 50;
     }
 
