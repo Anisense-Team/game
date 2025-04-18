@@ -8,11 +8,11 @@ public class MiningRobot : Robot
         MaxHealth = 100;
         ModelNumber = Robot.GetModelNumber(Name);
         Type = RobotEnums.Mining;
+        CompanyType = CompanyEnums.Parlax;
         Armor = 20;
     }
 
-
-    void Mine()
+    void Harvest()
     {
         // Mining behavior
     }

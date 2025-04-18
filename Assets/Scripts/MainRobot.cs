@@ -8,6 +8,7 @@ public class MainRobot : Robot
         MaxHealth = 100;
         ModelNumber = Robot.GetModelNumber(Name);
         Type = RobotEnums.Main;
+        CompanyType = CompanyEnums.Anisense;
         Armor = 20;
     }
 
