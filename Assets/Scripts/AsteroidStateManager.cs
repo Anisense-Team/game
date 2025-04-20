@@ -31,9 +31,9 @@ public class AsteroidStateManager : MonoBehaviour
         ship.AddResource(ResourceType.HydrogenIce, hydrogenIce);
 
         if (spawner != null) {
-            spawner.Spawn(ResourceType.Iron, iron);
-            spawner.Spawn(ResourceType.Copper, copper);
-            spawner.Spawn(ResourceType.HydrogenIce, hydrogenIce);
+            spawner.Spawn(ResourceType.Iron, iron, transform.position);
+            spawner.Spawn(ResourceType.Copper, copper, transform.position);
+            spawner.Spawn(ResourceType.HydrogenIce, hydrogenIce, transform.position);
         }
 
         Destroy(gameObject);

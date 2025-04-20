@@ -29,7 +29,8 @@ Transform:
   m_LocalPosition: {x: 12.12, y: 0.81999993, z: 2.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5583639723273027753}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9107141721255281354
@@ -44,3 +45,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d225b9221fb854c970a1979a1a0aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7064904573407929165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5583639723273027753}
+  - component: {fileID: 4282673136576752834}
+  m_Layer: 0
+  m_Name: ChunkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5583639723273027753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7064904573407929165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9164564515524987546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4282673136576752834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7064904573407929165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923c655dfd246424a98932c8ff6ac73a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceOrbPrefab: {fileID: 8699489665554685901, guid: 64b098cf99fc3f7438c955a870fe73db, type: 3}
+  scatterRadius: 0.5
+  MIN_CHUNK_SIZE: 0.1
+  MAX_CHUNK_SIZE: 0.4
+  MIN_CHUNK_FLING_FORCE: 1
+  MAX_CHUNK_FLING_FORCE: 3
+  MIN_CHUNK_LIFETIME: 3.5
+  MAX_CHUNK_LIFETIME: 5.5
