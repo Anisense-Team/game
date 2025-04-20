@@ -1,0 +1,29 @@
+using UnityEngine;
+
+public class CombatRobot : Robot
+{
+    public CombatRobot()
+    {
+        Name = "Combat";
+        MaxHealth = 120;
+        ModelNumber = Robot.GetModelNumber(Name);
+        Type = RobotEnums.Combat;
+        CompanyName = CompanyEnums.Monger;
+        Armor = 50;
+    }
+
+    void Attack()
+    {
+        // Attack behavior
+    }
+
+    void Reload()
+    {
+        // Reload behavior
+    }
+
+    void Overheat()
+    {
+        // Overheat behavior
+    }
+}
