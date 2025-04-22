@@ -5,7 +5,7 @@ using UnityEngine;
 //This SHOUD HAVE A MAXIUMUM AMOUNT OF RESOURCES IT CAN HAVE IN IT, ALSO THERE SHOULD PROBABLY BE AN ENUM FOR ASTROID SIZES (SMALL, MEDIUM, LARGE, XLARGE)
 //!!IMPORTANT
 
-public class AsteroidStateManager : MonoBehaviour
+public class Asteroid : MonoBehaviour
 {
     [Header("Drop Ranges")]
     public Vector2Int ironRange = new Vector2Int(3, 7);

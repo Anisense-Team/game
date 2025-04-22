@@ -16,9 +16,6 @@ public class ShipResourceManager : MonoBehaviour
     public void AddResource(ResourceType type, int amount)
     {
         _resources[type] += amount;
-
-        Debug.Log($"Added {amount} of {type}.");
-        Debug.Log(_resources);
     }
 
     public int GetResourceAmount(ResourceType type)

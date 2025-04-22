@@ -24,8 +24,6 @@ public class HarvestController : MonoBehaviour
             Harvestable target = hit.collider.GetComponent<Harvestable>();
             if (target != null)
             {
-                Debug.Log("Seems there is a target");
-
                 if (target != currentTarget)
                 {
                     currentTarget = target;
@@ -34,12 +32,11 @@ public class HarvestController : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.Mouse0))
                 {
-                    Debug.Log("Here in get mouse button");
                     holdTimer += Time.deltaTime;
 
                     if (holdTimer >= currentTarget.harvestTime)
                     {
-                        AsteroidStateManager asteroid = currentTarget.GetComponent<AsteroidStateManager>();
+                        Asteroid asteroid = currentTarget.GetComponent<Asteroid>();
                         if (asteroid != null && ship != null)
                         {
                             asteroid.Harvest(ship);
