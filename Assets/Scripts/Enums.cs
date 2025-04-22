@@ -26,3 +26,10 @@ public enum ResourceType
     Tungsten,
     Brainium
 }
+
+public enum SpaceZoneState
+{
+    Default,
+    AsteroidField,
+    Doldrums
+}

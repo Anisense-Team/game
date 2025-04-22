@@ -30,12 +30,8 @@ public class HarvestController : MonoBehaviour
                     holdTimer = 0f;
                 }
 
-                Debug.Log("Here mother fucker");
-
                 if (Input.GetKey(KeyCode.Mouse0))
                 {
-                    Debug.Log("Nigger bitch fuck");
-
                     holdTimer += Time.deltaTime;
 
                     if (holdTimer >= currentTarget.harvestTime)
