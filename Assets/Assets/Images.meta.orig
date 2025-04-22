@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Assets/Images.meta
+guid: e71205076d6dfaa4c884a2c5b1b93efe
+========
+guid: 5d299198a792a964e9d443aa47506e2c
+>>>>>>>> 61f0b324824235580b6389b22768de8339a32f32:Packages/com.unity.render-pipelines.high-definition-config/Runtime.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
