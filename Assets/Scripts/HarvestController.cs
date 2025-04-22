@@ -19,8 +19,6 @@ public class HarvestController : MonoBehaviour
         Ray ray = new Ray(cameraTransform.position, cameraTransform.forward);
         RaycastHit hit;
 
-        Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.magenta);
-
         if (Physics.Raycast(ray, out hit, interactRange, asteroidLayer))
         {
             Harvestable target = hit.collider.GetComponent<Harvestable>();
