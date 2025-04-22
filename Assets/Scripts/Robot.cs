@@ -8,8 +8,8 @@ public abstract class Robot
     public string Name { get; protected set; } = string.Empty;
     public int MaxHealth { get; protected set; } = 0;
     public int ModelNumber { get; protected set; } = 0;
-    public RobotEnums Type { get; protected set; } = RobotEnums.None;
-    public CompanyEnums CompanyName { get; protected set; } = CompanyEnums.None;
+    public RobotTypes Type { get; protected set; } = RobotTypes.None;
+    public Companies CompanyName { get; protected set; } = Companies.None;
     public int Armor { get; protected set; } = 0;
     public Vector3 initialPosition;
 

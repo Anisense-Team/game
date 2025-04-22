@@ -7,8 +7,8 @@ public class MainRobot : Robot
         Name = "Mining";
         MaxHealth = 100;
         ModelNumber = Robot.GetModelNumber(Name);
-        Type = RobotEnums.Main;
-        CompanyName = CompanyEnums.Anisense;
+        Type = RobotTypes.Main;
+        CompanyName = Companies.Anisense;
         Armor = 20;
     }
 

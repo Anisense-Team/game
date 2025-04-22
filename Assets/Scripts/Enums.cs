@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public enum CompanyEnums
+public enum Companies
 {
     Anisense,
     Monger,
@@ -8,7 +8,7 @@ public enum CompanyEnums
     None
 }
 
-public enum RobotEnums
+public enum RobotTypes
 {
     Mining,
     Combat,
@@ -25,4 +25,11 @@ public enum ResourceType
     Titanium,
     Tungsten,
     Brainium
+}
+
+public enum SpaceZoneState
+{
+    Default,
+    AsteroidField,
+    Doldrums
 }
