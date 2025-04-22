@@ -7,8 +7,8 @@ public class MiningRobot : Robot
         Name = "Mining";
         MaxHealth = 100;
         ModelNumber = Robot.GetModelNumber(Name);
-        Type = RobotEnums.Mining;
-        CompanyName = CompanyEnums.Parlax;
+        Type = RobotTypes.Mining;
+        CompanyName = Companies.Parlax;
         Armor = 20;
     }
 
