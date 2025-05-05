@@ -17,7 +17,7 @@ public enum RobotTypes
     None
 }
 
-public enum PlanetType
+public enum PlanetTypes
 {
     Terrestrial,
     GasGiant,
