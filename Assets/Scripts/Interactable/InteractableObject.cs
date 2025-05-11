@@ -11,7 +11,6 @@ public class InteractableObject : MonoBehaviour
 
         return "";
     }
-
     public void Interact()
     {
         if (interactionBehavior is IInteractable i)

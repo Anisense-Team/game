@@ -26,3 +26,28 @@ public enum PlanetTypes
     OceanWorld,
     Fabricated,
 }
+
+public enum DrinkTypes
+{
+    Oil,
+    Diesel,
+    Lubricant,
+    JetFuel,
+    Coolant,
+    Acid
+}
+
+public enum DrinkAdditives
+{
+    NutsAndBolts,
+    RustFlakes,
+    PieceOHyperFlux,
+    ThermalPaste
+}
+
+public enum GlassTypes
+{
+    Tall,
+    WhiskeyGlass,
+    BeerBottle
+}

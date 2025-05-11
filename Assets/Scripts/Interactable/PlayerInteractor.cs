@@ -13,9 +13,9 @@ public class PlayerInteractor : MonoBehaviour
 
     void Update()
     {
-        Ray ray = new Ray(transform.position, transform.forward);
+        Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
-        Debug.DrawRay(transform.position, transform.forward * interactRange, Color.green);
+        Debug.DrawRay(ray.origin, ray.direction * interactRange, Color.green);
 
         if (Physics.Raycast(ray, out RaycastHit hit, interactRange))
         {
@@ -23,6 +23,7 @@ public class PlayerInteractor : MonoBehaviour
 
             if (currentInteractable != null)
             {
+                Debug.Log("HIT!!!!");
                 interactPromptUI.text = currentInteractable.GetPrompt();
                 interactPromptUI.enabled = true;
 
